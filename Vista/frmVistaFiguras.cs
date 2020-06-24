@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MVC_AbstractFactory
+namespace Vista
 {
-    public partial class Form1 : Form
+    public partial class frmVistaFiguras : Form
     {
-        public Form1()
+        public frmVistaFiguras()
         {
             InitializeComponent();
         }
