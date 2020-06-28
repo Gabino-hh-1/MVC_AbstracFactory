@@ -17,10 +17,9 @@ namespace MVC_AbstractFactory
         [STAThread]
         static void Main()
         {
-            //clsModeloFiguras Model = new clsModeloFiguras();
-            frmVistaFiguras view = new frmVistaFiguras();
-            clsControladorFiguras controll = new clsControladorFiguras(view);
-            view.ShowDialog();
+            frmVistaOperacionFiguras vista = new frmVistaOperacionFiguras();
+            clsControladorOperacionesFiguras controll = new clsControladorOperacionesFiguras(vista);            
+            vista.ShowDialog();
         }
     }
 }

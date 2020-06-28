@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    public class clsModeloCuadrado:modeloIntFigura
+    class clsModeloCuadrado:modeloIntFigura
     {
         protected double _lado;
         public double Area()
@@ -16,9 +16,9 @@ namespace Modelo
 
         public string Descripcion()
         {
-            return "Este es un cuadrado, cuya medida de su lado de: " + _lado + " \n" +
-                "Su area es de: " + Area() + "\n" +
-                "Su perimetro es de: " + Perimetro();
+            return "Este es un cuadrado, cuya medida de su lado de: " + _lado +"       "+
+                "\nSu area es de: " + Area() + "\n" +
+                " \n  y Su perimetro es de: " + Perimetro();
         }
 
         public void setMedidas(double[] Medidas)

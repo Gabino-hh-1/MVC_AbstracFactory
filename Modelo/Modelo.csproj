@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsControladorFabrica.cs" />
     <Compile Include="clsModeloCirculo.cs" />
     <Compile Include="clsModeloCuadrado.cs" />
     <Compile Include="clsModeloRectangulo.cs" />

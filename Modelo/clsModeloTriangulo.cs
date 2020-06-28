@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    public class clsModeloTriangulo:modeloIntFigura
+    class clsModeloTriangulo:modeloIntFigura
     {
         protected double _base;
         protected double _altura;
@@ -17,9 +17,9 @@ namespace Modelo
 
         public string Descripcion()
         {
-            return "Este es un Triángulo, cuya medida de su Base es de: " + _base + " y su Altura es de: " + _altura + "\n" +
-                 "Su area es de: " + Area() + "\n" +
-                 "Su perimetro es de: " + Perimetro();
+            return "Este es un Triángulo, cuya medida de su Base es de: " + _base + " y su Altura es de: " + _altura + ".\n" +
+                 "  Su area es de: " + Area() + "\n" +
+                 "  y Su perimetro es de: " + Perimetro();
         }
 
         public void setMedidas(double[] Medidas)
